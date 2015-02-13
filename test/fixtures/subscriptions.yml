@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  abonament: MyString
+  kod: MyString
+  available: false
+  client_id: 
+
+two:
+  abonament: MyString
+  kod: MyString
+  available: false
+  client_id: 
