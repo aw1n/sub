@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Abonament:</strong>
+  <%= @subscription.abonament %>
+</p>
+
+<p>
+  <strong>Kod:</strong>
+  <%= @subscription.kod %>
+</p>
+
+<p>
+  <strong>Available:</strong>
+  <%= @subscription.available %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @subscription.client %>
+</p>
+
+<%= link_to 'Edit', edit_subscription_path(@subscription) %> |
+<%= link_to 'Back', subscriptions_path %>
